@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		751F07EE1D52DFFE00F9FD9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F07ED1D52DFFE00F9FD9F /* AppDelegate.swift */; };
+		751F07F01D52DFFE00F9FD9F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 751F07EF1D52DFFE00F9FD9F /* GameScene.sks */; };
+		751F07F21D52DFFE00F9FD9F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 751F07F11D52DFFE00F9FD9F /* Actions.sks */; };
+		751F07F41D52DFFE00F9FD9F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F07F31D52DFFE00F9FD9F /* GameScene.swift */; };
+		751F07F61D52DFFE00F9FD9F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F07F51D52DFFE00F9FD9F /* GameViewController.swift */; };
+		751F07F91D52DFFF00F9FD9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751F07F71D52DFFF00F9FD9F /* Main.storyboard */; };
+		751F07FB1D52DFFF00F9FD9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F07FA1D52DFFF00F9FD9F /* Assets.xcassets */; };
+		751F07FE1D52DFFF00F9FD9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751F07FC1D52DFFF00F9FD9F /* LaunchScreen.storyboard */; };
+		751F08091D52DFFF00F9FD9F /* Battery_BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F08081D52DFFF00F9FD9F /* Battery_BuilderTests.swift */; };
+		751F08141D52DFFF00F9FD9F /* Battery_BuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F08131D52DFFF00F9FD9F /* Battery_BuilderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		751F08051D52DFFF00F9FD9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 751F07E21D52DFFE00F9FD9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 751F07E91D52DFFE00F9FD9F;
+			remoteInfo = "Battery Builder";
+		};
+		751F08101D52DFFF00F9FD9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 751F07E21D52DFFE00F9FD9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 751F07E91D52DFFE00F9FD9F;
+			remoteInfo = "Battery Builder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		751F07EA1D52DFFE00F9FD9F /* Battery Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battery Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		751F07ED1D52DFFE00F9FD9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		751F07EF1D52DFFE00F9FD9F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		751F07F11D52DFFE00F9FD9F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		751F07F31D52DFFE00F9FD9F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		751F07F51D52DFFE00F9FD9F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		751F07F81D52DFFF00F9FD9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		751F07FA1D52DFFF00F9FD9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		751F07FD1D52DFFF00F9FD9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		751F07FF1D52DFFF00F9FD9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		751F08041D52DFFF00F9FD9F /* Battery BuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battery BuilderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		751F08081D52DFFF00F9FD9F /* Battery_BuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery_BuilderTests.swift; sourceTree = "<group>"; };
+		751F080A1D52DFFF00F9FD9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		751F080F1D52DFFF00F9FD9F /* Battery BuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battery BuilderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		751F08131D52DFFF00F9FD9F /* Battery_BuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery_BuilderUITests.swift; sourceTree = "<group>"; };
+		751F08151D52DFFF00F9FD9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		751F07E71D52DFFE00F9FD9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751F08011D52DFFF00F9FD9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751F080C1D52DFFF00F9FD9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		751F07E11D52DFFE00F9FD9F = {
+			isa = PBXGroup;
+			children = (
+				751F07EC1D52DFFE00F9FD9F /* Battery Builder */,
+				751F08071D52DFFF00F9FD9F /* Battery BuilderTests */,
+				751F08121D52DFFF00F9FD9F /* Battery BuilderUITests */,
+				751F07EB1D52DFFE00F9FD9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		751F07EB1D52DFFE00F9FD9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				751F07EA1D52DFFE00F9FD9F /* Battery Builder.app */,
+				751F08041D52DFFF00F9FD9F /* Battery BuilderTests.xctest */,
+				751F080F1D52DFFF00F9FD9F /* Battery BuilderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		751F07EC1D52DFFE00F9FD9F /* Battery Builder */ = {
+			isa = PBXGroup;
+			children = (
+				751F07ED1D52DFFE00F9FD9F /* AppDelegate.swift */,
+				751F07EF1D52DFFE00F9FD9F /* GameScene.sks */,
+				751F07F11D52DFFE00F9FD9F /* Actions.sks */,
+				751F07F31D52DFFE00F9FD9F /* GameScene.swift */,
+				751F07F51D52DFFE00F9FD9F /* GameViewController.swift */,
+				751F07F71D52DFFF00F9FD9F /* Main.storyboard */,
+				751F07FA1D52DFFF00F9FD9F /* Assets.xcassets */,
+				751F07FC1D52DFFF00F9FD9F /* LaunchScreen.storyboard */,
+				751F07FF1D52DFFF00F9FD9F /* Info.plist */,
+			);
+			path = "Battery Builder";
+			sourceTree = "<group>";
+		};
+		751F08071D52DFFF00F9FD9F /* Battery BuilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				751F08081D52DFFF00F9FD9F /* Battery_BuilderTests.swift */,
+				751F080A1D52DFFF00F9FD9F /* Info.plist */,
+			);
+			path = "Battery BuilderTests";
+			sourceTree = "<group>";
+		};
+		751F08121D52DFFF00F9FD9F /* Battery BuilderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				751F08131D52DFFF00F9FD9F /* Battery_BuilderUITests.swift */,
+				751F08151D52DFFF00F9FD9F /* Info.plist */,
+			);
+			path = "Battery BuilderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		751F07E91D52DFFE00F9FD9F /* Battery Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 751F08181D52DFFF00F9FD9F /* Build configuration list for PBXNativeTarget "Battery Builder" */;
+			buildPhases = (
+				751F07E61D52DFFE00F9FD9F /* Sources */,
+				751F07E71D52DFFE00F9FD9F /* Frameworks */,
+				751F07E81D52DFFE00F9FD9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Battery Builder";
+			productName = "Battery Builder";
+			productReference = 751F07EA1D52DFFE00F9FD9F /* Battery Builder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		751F08031D52DFFF00F9FD9F /* Battery BuilderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 751F081B1D52DFFF00F9FD9F /* Build configuration list for PBXNativeTarget "Battery BuilderTests" */;
+			buildPhases = (
+				751F08001D52DFFF00F9FD9F /* Sources */,
+				751F08011D52DFFF00F9FD9F /* Frameworks */,
+				751F08021D52DFFF00F9FD9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				751F08061D52DFFF00F9FD9F /* PBXTargetDependency */,
+			);
+			name = "Battery BuilderTests";
+			productName = "Battery BuilderTests";
+			productReference = 751F08041D52DFFF00F9FD9F /* Battery BuilderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		751F080E1D52DFFF00F9FD9F /* Battery BuilderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 751F081E1D52DFFF00F9FD9F /* Build configuration list for PBXNativeTarget "Battery BuilderUITests" */;
+			buildPhases = (
+				751F080B1D52DFFF00F9FD9F /* Sources */,
+				751F080C1D52DFFF00F9FD9F /* Frameworks */,
+				751F080D1D52DFFF00F9FD9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				751F08111D52DFFF00F9FD9F /* PBXTargetDependency */,
+			);
+			name = "Battery BuilderUITests";
+			productName = "Battery BuilderUITests";
+			productReference = 751F080F1D52DFFF00F9FD9F /* Battery BuilderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		751F07E21D52DFFE00F9FD9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Stephen Hetterich";
+				TargetAttributes = {
+					751F07E91D52DFFE00F9FD9F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X6FBW8T45L;
+						ProvisioningStyle = Automatic;
+					};
+					751F08031D52DFFF00F9FD9F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X6FBW8T45L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 751F07E91D52DFFE00F9FD9F;
+					};
+					751F080E1D52DFFF00F9FD9F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X6FBW8T45L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 751F07E91D52DFFE00F9FD9F;
+					};
+				};
+			};
+			buildConfigurationList = 751F07E51D52DFFE00F9FD9F /* Build configuration list for PBXProject "Battery Builder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 751F07E11D52DFFE00F9FD9F;
+			productRefGroup = 751F07EB1D52DFFE00F9FD9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				751F07E91D52DFFE00F9FD9F /* Battery Builder */,
+				751F08031D52DFFF00F9FD9F /* Battery BuilderTests */,
+				751F080E1D52DFFF00F9FD9F /* Battery BuilderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		751F07E81D52DFFE00F9FD9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751F07F91D52DFFF00F9FD9F /* Main.storyboard in Resources */,
+				751F07F01D52DFFE00F9FD9F /* GameScene.sks in Resources */,
+				751F07FB1D52DFFF00F9FD9F /* Assets.xcassets in Resources */,
+				751F07FE1D52DFFF00F9FD9F /* LaunchScreen.storyboard in Resources */,
+				751F07F21D52DFFE00F9FD9F /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751F08021D52DFFF00F9FD9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751F080D1D52DFFF00F9FD9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		751F07E61D52DFFE00F9FD9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751F07F41D52DFFE00F9FD9F /* GameScene.swift in Sources */,
+				751F07F61D52DFFE00F9FD9F /* GameViewController.swift in Sources */,
+				751F07EE1D52DFFE00F9FD9F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751F08001D52DFFF00F9FD9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751F08091D52DFFF00F9FD9F /* Battery_BuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751F080B1D52DFFF00F9FD9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751F08141D52DFFF00F9FD9F /* Battery_BuilderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		751F08061D52DFFF00F9FD9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 751F07E91D52DFFE00F9FD9F /* Battery Builder */;
+			targetProxy = 751F08051D52DFFF00F9FD9F /* PBXContainerItemProxy */;
+		};
+		751F08111D52DFFF00F9FD9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 751F07E91D52DFFE00F9FD9F /* Battery Builder */;
+			targetProxy = 751F08101D52DFFF00F9FD9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		751F07F71D52DFFF00F9FD9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				751F07F81D52DFFF00F9FD9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		751F07FC1D52DFFF00F9FD9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				751F07FD1D52DFFF00F9FD9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		751F08161D52DFFF00F9FD9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		751F08171D52DFFF00F9FD9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		751F08191D52DFFF00F9FD9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X6FBW8T45L;
+				INFOPLIST_FILE = "Battery Builder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephenHetterich.Battery-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		751F081A1D52DFFF00F9FD9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X6FBW8T45L;
+				INFOPLIST_FILE = "Battery Builder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephenHetterich.Battery-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		751F081C1D52DFFF00F9FD9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X6FBW8T45L;
+				INFOPLIST_FILE = "Battery BuilderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephenHetterich.Battery-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battery Builder.app/Battery Builder";
+			};
+			name = Debug;
+		};
+		751F081D1D52DFFF00F9FD9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X6FBW8T45L;
+				INFOPLIST_FILE = "Battery BuilderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephenHetterich.Battery-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battery Builder.app/Battery Builder";
+			};
+			name = Release;
+		};
+		751F081F1D52DFFF00F9FD9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X6FBW8T45L;
+				INFOPLIST_FILE = "Battery BuilderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephenHetterich.Battery-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Battery Builder";
+			};
+			name = Debug;
+		};
+		751F08201D52DFFF00F9FD9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X6FBW8T45L;
+				INFOPLIST_FILE = "Battery BuilderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephenHetterich.Battery-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Battery Builder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		751F07E51D52DFFE00F9FD9F /* Build configuration list for PBXProject "Battery Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751F08161D52DFFF00F9FD9F /* Debug */,
+				751F08171D52DFFF00F9FD9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		751F08181D52DFFF00F9FD9F /* Build configuration list for PBXNativeTarget "Battery Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751F08191D52DFFF00F9FD9F /* Debug */,
+				751F081A1D52DFFF00F9FD9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		751F081B1D52DFFF00F9FD9F /* Build configuration list for PBXNativeTarget "Battery BuilderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751F081C1D52DFFF00F9FD9F /* Debug */,
+				751F081D1D52DFFF00F9FD9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		751F081E1D52DFFF00F9FD9F /* Build configuration list for PBXNativeTarget "Battery BuilderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751F081F1D52DFFF00F9FD9F /* Debug */,
+				751F08201D52DFFF00F9FD9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 751F07E21D52DFFE00F9FD9F /* Project object */;
+}
